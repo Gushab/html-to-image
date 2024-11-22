@@ -4,7 +4,7 @@ export default config({
   output: [
     {
       name: 'htmlToImage',
-      format: 'umd',
+      format: 'esm',
       file: 'dist/html-to-image.js',
       sourcemap: true,
     },
